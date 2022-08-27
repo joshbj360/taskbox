@@ -40,7 +40,7 @@
 import { reactive, computed } from 'vue';
 
 export default {
-  name: 'Task',
+  name: 'TaskName',
   props: {
     task: {
       type: Object,

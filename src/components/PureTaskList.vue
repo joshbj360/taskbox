@@ -41,7 +41,7 @@ import Task from './Task.vue'
 
         emits: ['archive-task', 'pin-task'],
 
-        setup(props, {emits}) {
+        setup(props) {
             props = reactive(props)
             
             return {
